@@ -1,0 +1,575 @@
+<!doctype html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->	<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Denta - Info Kesehatan, Booking dan Chat Dokter</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/fontawesome/fontawesome-all.css">
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="css/fullcalendar.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<link rel="stylesheet" href="css/chosen.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/transitions.css">
+	<link rel="stylesheet" href="css/doctor-slider.css">
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body class="dc-home">
+	<!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!-- Preloader Start -->
+	<div class="preloader-outer">
+		<div class="wt-preloader-holder">
+			<div class="wt-loader"></div>
+		</div>
+	</div>
+	<!-- Preloader End -->
+	<!-- Wrapper Start -->
+	<div id="dc-wrapper" class="dc-wrapper dc-haslayout">
+		<!-- Header Start -->
+		<header id="dc-header" class="dc-header dc-haslayout">
+			<div class="dc-topbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="dc-helpnum">
+								<span>Emergency Help!</span>
+								<a href="tel:123456789">+1 234 5678 - 9</a>
+							</div>
+							<div class="dc-rightarea">
+								<ul class="dc-simplesocialicons dc-socialiconsborder">
+									<li class="dc-facebook"><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
+									<li class="dc-twitter"><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
+									<li class="dc-linkedin"><a href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a></li>
+									<li class="dc-googleplus"><a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a></li>
+									<li class="dc-rss"><a href="javascript:void(0);"><i class="fas fa-rss"></i></a></li>
+									<li class="dc-youtube"><a href="javascript:void(0);"><i class="fab fa-youtube"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dc-navigationarea">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+							<strong class="dc-logo"><a href="index.html"><img class="img-fluid" src="assets/img/logo-denta-sm.webp" alt="Denta Logo"></a></strong>
+							<div class="dc-rightarea">
+								<nav id="dc-nav" class="dc-nav navbar-expand-lg">
+									<button style="margin-top: 45px;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+										<i class="lnr lnr-menu"></i>
+									</button>
+									<div class="collapse navbar-collapse dc-navigation" id="navbarNav">
+										<ul class="navbar-nav" style="padding-top:20px;">
+												<li class="menu-item-has-children page_item_has_children">
+														<a href="blog-list.html">Info Penyakit Gigi</a>
+														<ul class="sub-menu">
+																<li><a href="#">Gigi Lubang</a></li>
+																<li><a href="#">Gigi Sensitif</a></li>
+																<li><a href="blog-list.html">Gigi Kuning</a></li>
+																<li><a href="blog-list.html">Gigi Patah</a></li>
+																<li><a href="blog-list.html">Bau Mulut / Halitosis</a></li>
+																<li><a href="blog-list.html">Sariawan</a></li>
+																<li><a href="blog-list.html">Gigi Hitam</a></li>
+																<li><a href="blog-list.html">Gigi Berdarah</a></li>
+																<li><a href="blog-list.html">Gigi Maju</a></li>
+															</ul>
+													</li>
+													<li class="menu-item-has-children page_item_has_children ">
+														<a href="blog-list.html">Info Perawatan Gigi</a>
+														<ul class="sub-menu">
+																<li><a href="#">Penambalan Gigi</a></li>
+																<li><a href="#">Pembersihan Gigi</a></li>
+																<li><a href="blog-list.html">Pemutihan Gigi</a></li>
+																<li><a href="blog-list.html">Pemasangan Gigi</a></li>
+																<li><a href="blog-list.html">Operasi Gigi Bungsu</a></li>
+																<li><a href="blog-list.html">Bracket / Behel Gigi</a></li>
+																<li><a href="blog-list.html">Perawatan Gigi Baby</a></li>
+																<li><a href="blog-list.html">Perawatan Gigi Anak</a></li>
+																<li><a href="blog-list.html">Veneer Gigi</a></li>
+																<li><a href="blog-list.html">Bracket Invisible</a></li>
+															</ul>
+													</li>
+
+													<li class="menu-item-has-children page_item_has_children">
+														<a href="layanan-dokter.html">Layanan Dokter Gigi</a></li>
+											<li class="menu-item-has-children page_item_has_children">
+													<a href="healthforum.html">Tanya Dokter Gigi</a>
+												</li>
+												
+										</ul>
+										
+									</div>
+								</nav>
+								<div class="dc-loginarea">
+									<div class="dc-loginoption">
+										<a href="javascript:void(0);" id="dc-loginbtn" class="dc-loginbtn dc-borderku">Masuk</a>
+										<div class="dc-loginformhold">
+											<div class="dc-loginheader">
+												<span>Login</span>
+												<a href="javascript:;"><i class="fa fa-times"></i></a>
+											</div>
+											<form class="dc-formtheme dc-loginform do-login-form">
+												<fieldset>
+													<div class="form-group">
+														<input type="text" name="name" class="form-control" placeholder="Username">
+													</div>
+													<div class="form-group">
+														<input type="password" name="password" class="form-control" placeholder="Password">
+													</div>
+													<div class="dc-logininfo">
+														<span class="dc-checkbox">
+															<input id="dc-login" type="checkbox" name="rememberme">
+															<label for="dc-login">Ingat saya</label>
+														</span>
+														<a href="javascript:;" class="dc-btn do-login-button">Login</a>
+													</div>
+												</fieldset>
+												<div class="dc-loginfooterinfo">
+													<a href="javascript:;" class="dc-forgot-password">Lupa Password?</a>
+													<a href="javascript:void(0);">Buat Akun</a>
+												</div>
+											</form>
+										    <form class="dc-formtheme dc-loginform do-forgot-password-form dc-hide-form">
+										        <fieldset>
+										            <div class="form-group">
+										                <input type="email" name="email" class="form-control get_password" placeholder="Email">
+										            </div>
+										           
+										            <div class="dc-logininfo">
+										                <a href="javascript:;" class="dc-btn do-get-password">Dapatkan Password</a>
+										            </div>     
+										        </fieldset>
+										        <div class="dc-loginfooterinfo">
+										            <a href="javascript:void(0);" class="dc-show-login">Login</a>
+										            <a href="javascript:void(0);">Buat Akun</a>
+										        </div>
+										    </form>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Header End -->
+		<!-- Home Slider Start -->
+		<div class="dc-homesliderholder dc-haslayout">
+			<div id="dc-homeslider" class="dc-homeslider">
+				<div id="dc-bannerslider" class="dc-bannerslider carousel slide" data-ride="false" data-interval="false">
+				  <ol class="carousel-indicators dc-bannerdots">
+				    <li data-target="#dc-bannerslider" data-slide-to="0" class="active"></li>
+				    <li data-target="#dc-bannerslider" data-slide-to="1"></li>
+				    <li data-target="#dc-bannerslider" data-slide-to="2"></li>
+				  </ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active" id="carousel-item-1">
+							<div class="d-flex justify-content-center dc-craousel-content">
+								<div class="mx-auto">
+									<img class="d-block dc-bannerimg" src="assets/img/dental-patient-cartoon-png-dentistry-clipart-5bfebe8435c62e9b.png" alt="First slide">
+									<div class="dc-bannercontent dc-bannercotent-craousel" >
+										<div class="dc-content-carousel">
+											<div class="dc-num"></div>
+											<h1><em>Emergency?</em> Find Nearest<span> Medical Facility</span></h1>
+											<div class="dc-btnarea">
+												<a href="javascript:void(0);" class="dc-btn dc-btnactive">View Hospitals</a>
+												<a href="javascript:void(0);" class="dc-btn dc-btnku">View Doctors</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item" id="carousel-item-2">
+							<div class="d-flex justify-content-center dc-craousel-content">
+								<div class="mx-auto">
+									<img class="d-block dc-bannerimg" src="assets/img/dentistry-png-cosmetic-clipart.png" alt="Second slide">
+									<div class="dc-bannercontent dc-bannercotent-craousel" >
+										<div class="dc-content-carousel">
+											<div class="dc-num"></div>
+											<h1><em>Emergency?</em> Find Nearest<span> Medical Facility</span></h1>
+											<div class="dc-btnarea">
+												<a href="javascript:void(0);" class="dc-btn dc-btnactive">View Hospitals</a>
+												<a href="javascript:void(0);" class="dc-btn">View Doctors</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item" id="carousel-item-3">
+							<div class="d-flex justify-content-center dc-craousel-content">
+								<div class="mx-auto">
+									<img class="d-block dc-bannerimg" src="assets/img/cartoon-png-dentistry-medicine.png" alt="Third slide">
+									<div class="dc-bannercontent dc-bannercotent-craousel" >
+										<div class="dc-content-carousel">
+											<div class="dc-num"></div>
+											<h1><em>Emergency?</em> Find Nearest<span> Medical Facility</span></h1>
+											<div class="dc-btnarea">
+												<a href="javascript:void(0);" class="dc-btn dc-btnactive">View Hospitals</a>
+												<a href="javascript:void(0);" class="dc-btn">View Doctors</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="dc-carousel-control-prev" href="#dc-bannerslider" role="button" data-slide="prev">
+							<span class="dc-carousel-control-prev-icon" aria-hidden="true"><span>PR</span><span class="d-block">EV</span></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="dc-carousel-control-next" href="#dc-bannerslider" role="button" data-slide="next">
+							<span class="dc-carousel-control-next-icon " aria-hidden="true"><span>NE</span><span class="d-block">XT</span></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>				
+				</div>
+			</div>
+		</div>
+		<!-- Home Slider End -->
+		<!-- Main Start -->
+		<div class="dc-haslayout">
+			<div class="container-fluid">
+				<div class="row">
+					<div id="dc-doctorslider" class="dc-doctorslider owl-carousel">
+						<div class="item dc-doctordetails-holder dc-titlecolor1">
+							
+							<h3><span>Info</span> Penyakit Gigi</h3>
+							<a href="javascript:void(0);" class="dc-btn">View details</a>
+						</div>
+						<div class="item dc-doctordetails-holder dc-titlecolor2">
+						
+							<h3><span>Info</span> Perawatan Gigi</h3>
+							<a href="javascript:void(0);" class="dc-btn">View details</a>
+						</div>
+						<div class="item dc-doctordetails-holder dc-titlecolor3">
+						
+							<h3><span>Layanan</span> Dokter Gigi</h3>
+							<a href="javascript:void(0);" class="dc-btn">View details</a>
+						</div>
+						<div class="item dc-doctordetails-holder dc-titlecolor4">
+						
+							<h3><span>Tanya</span> Dokter Gigi</h3>
+							<a href="javascript:void(0);" class="dc-btn">View details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			</section>
+			<!-- Main Start -->
+		<main id="dc-main" class="dc-main dc-haslayout">
+				<!-- About Welcome Start -->
+				<!-- About Welcome Start -->
+				<div class="dc-haslayout dc-main-section">
+					<!-- User Listing Start-->
+					<div class="container">
+						<div class="row">
+							<div id="dc-twocolumns" class="dc-twocolumns dc-borderlt-0 dc-haslayout">
+								<div class="col-md-8 col-xl-9 float-right">
+									<div class="row dc-articles-mt">
+										<div class="col-sm-12 float-left">
+											<div class="dc-searchresult-head">
+												<div class="dc-title"><h3>Latest Articles</h3></div>
+												<div class="dc-rightarea">
+													<div class="dc-select">
+														<select>
+															<option value="Sort By:">Sort By:</option>
+														</select>
+													</div>
+													<div class="dc-gridlist-option">
+														<a href="javascript:void(0);" class="dc-linkactive"><i class="ti-layout-grid2"></i></a>
+														<a href="javascript:void(0);"><i class="ti-view-list"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+										<!-- INI MENU ARTIKEL-->
+										<div class="col-sm-12 float-right">
+											<div class="dc-article d-flex">
+												<figure class="dc-articleimg">
+													<img src="images/blog/grid-list/img-01.jpg" alt="img description">
+													<figcaption>
+														<div class="dc-articlesdocinfo">
+															<img src="images/articles/user/img-03.jpg" alt="img description">
+															<span>Lincoln Claggett</span>
+														</div>
+													</figcaption>
+												</figure>
+												<div class="dc-articlecontent">
+													<div class="dc-title dc-ellipsis dc-titlep">
+														<a href="javascript:void(0);" class="dc-articleby">Business, Lifestyle</a>
+														<h3><a href="blog-single.html">Best Way to Stay Healthy and Boost Your Metabolism With Walk</a></h3>
+														<span class="dc-datetime"><i class="ti-calendar"></i> Jun 27, 2019</span>
+													</div>
+													<ul class="dc-moreoptions d-flex justify-content-end dc-option">
+														<li><a href="javascript:void(0);"><i class="ti-heart"></i> 12,032</a></li>
+														<li><a href="javascript:void(0);"><i class="ti-eye"></i> 1,26,558</a></li>
+														<li><a href="javascript:void(0);"><i class="ti-share"></i> Share</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-12 float-right">
+											<div class="dc-article d-flex">
+												<figure class="dc-articleimg">
+													<img src="images/blog/grid-list/img-01.jpg" alt="img description">
+													<figcaption>
+														<div class="dc-articlesdocinfo">
+															<img src="images/articles/user/img-03.jpg" alt="img description">
+															<span>Lincoln Claggett</span>
+														</div>
+													</figcaption>
+												</figure>
+												<div class="dc-articlecontent">
+													<div class="dc-title dc-ellipsis dc-titlep">
+														<a href="javascript:void(0);" class="dc-articleby">Business, Lifestyle</a>
+														<h3><a href="blog-single.html">Best Way to Stay Healthy and Boost Your Metabolism With Walk</a></h3>
+														<span class="dc-datetime"><i class="ti-calendar"></i> Jun 27, 2019</span>
+													</div>
+													<ul class="dc-moreoptions d-flex justify-content-end dc-option">
+														<li><a href="javascript:void(0);"><i class="ti-heart"></i> 12,032</a></li>
+														<li><a href="javascript:void(0);"><i class="ti-eye"></i> 1,26,558</a></li>
+														<li><a href="javascript:void(0);"><i class="ti-share"></i> Share</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-12 float-right">
+											<div class="dc-article d-flex">
+												<figure class="dc-articleimg">
+													<img src="images/blog/grid-list/img-01.jpg" alt="img description">
+													<figcaption>
+														<div class="dc-articlesdocinfo">
+															<img src="images/articles/user/img-03.jpg" alt="img description">
+															<span>Lincoln Claggett</span>
+														</div>
+													</figcaption>
+												</figure>
+												<div class="dc-articlecontent">
+													<div class="dc-title dc-ellipsis dc-titlep">
+														<a href="javascript:void(0);" class="dc-articleby">Business, Lifestyle</a>
+														<h3><a href="blog-single.html">Best Way to Stay Healthy and Boost Your Metabolism With Walk</a></h3>
+														<span class="dc-datetime"><i class="ti-calendar"></i> Jun 27, 2019</span>
+													</div>
+													<ul class="dc-moreoptions d-flex justify-content-end dc-option">
+														<li><a href="javascript:void(0);"><i class="ti-heart"></i> 12,032</a></li>
+														<li><a href="javascript:void(0);"><i class="ti-eye"></i> 1,26,558</a></li>
+														<li><a href="javascript:void(0);"><i class="ti-share"></i> Share</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<!-- END ARTIKEL  -->
+										<!--PAGINATION -->
+										<div class="col-sm-12 float-right">
+											<nav class="dc-pagination">
+												<ul>
+													<li class="dc-prevpage"><a href="javascrip:void(0);"><i class="lnr lnr-chevron-left"></i></a></li>
+													<li><a href="javascrip:void(0);">1</a></li>
+													<li><a href="javascrip:void(0);">2</a></li>
+													<li><a href="javascrip:void(0);">3</a></li>
+													<li><a href="javascrip:void(0);">4</a></li>
+													<li><a href="javascrip:void(0);">...</a></li>
+													<li><a href="javascrip:void(0);">50</a></li>
+													<li class="dc-nextpage"><a href="javascrip:void(0);"><i class="lnr lnr-chevron-right"></i></a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+								<!--END PAGINATION-->
+
+								
+								<!--Category-->
+								
+								<div class="col-md-4 col-xl-3 float-right">
+									<aside id="dc-sidebar" class="dc-sidebar dc-sidebar-grid float-left mt-md-0">
+										<form class="dc-formtheme dc-formnewsletter">
+											<fieldset>
+												<div class="form-group">
+													<input type="email" name="email" value="" class="form-control" placeholder="Enter Your Email" required="">
+													<button class="dc-icon" type="submit"><i class="lnr lnr-magnifier"></i></button>
+													
+												</div>
+											</fieldset>
+										</form>
+									<!--	<div class="dc-widget dc-categories">
+											<div class="dc-widgettitle">
+												<h3>Categories</h3>
+											</div>
+											<div class="dc-widgetcontent">
+												<ul class="dc-categories-content">
+													<li><a href="javascript:void(0);">Allergy Specialist</a></li>
+													<li><a href="javascript:void(0);">Andrologist</a></li>
+													<li><a href="javascript:void(0);">Anesthetist</a></li>
+													<li><a href="javascript:void(0);">Audiologist</a></li>
+													<li><a href="javascript:void(0);">Dietitian/Nutritionist</a></li>
+													<li><a href="javascript:void(0);">Laproscopic Surgeon</a></li>
+													<li><a href="javascript:void(0);">Maxillofacial Surgeon</a></li>
+													<li><a href="javascript:void(0);">Orthopedic Surgeon</a></li>
+													<li><a href="javascript:void(0);">Pediatric Cardiac Surgeon</a></li>
+												</ul>
+											</div>
+										</div> -->
+
+										<!--ENd Category-->
+										<div class="dc-widget dc-featured">
+											<div class="dc-widgettitle">
+												<h3>Tim Dokter Gigi</h3>
+											</div>
+											<div class="dc-widgetcontent">                                              
+												<ul class="dc-featured-content dc-widgeticon ">
+													<li><img src="images/blog/icons/img-01.jpg" alt=""><span><a href="javascript:void(0);">Drg. Feny Fransisca </a><span>Dokter Gigi Umum</span></span></li>
+													<li><img src="images/blog/icons/img-02.jpg" alt=""><span><a href="javascript:void(0);">Drg. Charles Smith </a><span>Dokter Gigi Spesialis</span></span></li>
+													<li><img src="images/blog/icons/img-03.jpg" alt=""><span><a href="javascript:void(0);">Drg. Olivia </a><span>Dokter Gigi Estetik</span></span></li>
+													<li><img src="images/blog/icons/img-04.jpg" alt=""><span><a href="javascript:void(0);">Drg. Joe Alexander </a><span>Dokter Perawatan Gigi</span></span></li>
+													<li><img src="images/blog/icons/img-05.jpg" alt=""><span><a href="javascript:void(0);">Why Business Had Bee </a><span>Dokter Gigi Umum</span></span></li>		
+												</ul>
+											</div>
+										</div>
+									
+					<!-- User Listing End-->
+				</div>
+				<!-- Emerging Clients End -->
+				
+			</main>
+			<!-- Main End -->
+		<!-- Footer Start -->
+		<footer id="dc-footer" class="dc-footer dc-haslayout">
+				<div class="dc-footertopbar">
+					<div class="container">
+						<div class="row justify-content-center align-self-center">
+							<div class="col-xs-12 col-sm-12 col-md-8 push-md-2 col-lg-8 push-lg-2">
+								<div class="dc-footer-call-email">
+									<div class="dc-callinfoholder">
+										<figure class="dc-callinfoimg">
+											<h2><i class="fas fa-phone-volume"></i></h2>
+										</figure>
+										<div class="dc-callinfocontent">
+											<h3><span>Emergency Call</span> <a href="javascript:void(0);">+1 234 5678 - 9</a></h3>
+										</div>
+									</div>
+									<div class="dc-callinfoholder dc-mailinfoholder">
+										<figure class="dc-callinfoimg">
+											<h2><i class="fas fa-envelope"></i></h2>
+										</figure>
+										<div class="dc-callinfocontent">
+											<h3><span>24/7 Email Support</span> <a href="mailto:Info@domain.com">Info@domain.com</a></h3>
+										</div>
+									</div>
+									<span class="dc-or-text">- OR -</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="dc-fthreecolumns">
+					<div class="container">
+						<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 float-left">
+										<div class="dc-fcol dc-flatestad">
+											<div class="dc-ftitle"><h3>Alodokter</h3></div>
+											<div class="dc-footercontent">
+												<ul class="dc-fsocialicon">
+														<li><a href="#">Syarat & Ketentuan</a></li>
+														<li><a href="#">Privasi</a></li>
+														<li><a href="#">Iklan</a></li>
+														<li><a href="#">Gabung di Tim Dokter</a></li>
+														<li><a href="#">Daftarkan Rumah Sakit Anda</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 float-left">
+											<div class="dc-fcol dc-flatestad">
+												<div class="dc-ftitle"><h3>Lainnya</h3></div>
+												<div class="dc-footercontent">
+													<ul class="dc-fsocialicon">
+															<li><a href="#">Syarat & Ketentuan</a></li>
+															<li><a href="#">Privasi</a></li>
+															<li><a href="#">Iklan</a></li>
+															<li><a href="#">Gabung di Tim Dokter</a></li>
+															<li><a href="#">Daftarkan Rumah Sakit Anda</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 float-left">
+								<div class="dc-fcol dc-flatestad">
+									<div class="dc-ftitle"><h3>Media Social</h3></div>
+									<div class="dc-footercontent">
+										<ul class="dc-fsocialicon">
+												<li><a href="#">Facebook</a></li>
+												<li><a href="#">Instagram</a></li>
+												<li><a href="#">Linkedin</a></li>
+												<li><a href="#">Youtube</a></li>
+												<li><a href="#">Twitter</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 float-left">
+									<div class="dc-fcol dc-flatestad">
+										<div class="dc-ftitle"><h3>Bagian Alodokter</h3></div>
+										<div class="dc-footercontent">
+											<ul class="dc-fsocialicon">
+													<li><a href="#">domain.com</a></li>
+													<li><a href="#">domain.id</a></li>
+													<li><a href="#">Domain.net</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="dc-footerbottom">
+						<div class="container">
+							<div class="row">
+								<div class="col-12 col-sm-12">
+									<p class="dc-copyright">Copyrights © 2019 by <span>Doctoroc.</span> All Rights Reserved.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			</footer
+			<!-- Footer End -->
+	</div>
+	<script src="js/vendor/jquery-3.3.1.js"></script>
+	<script src="js/vendor/jquery-library.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/moment.min.js"></script>
+	<script src="js/fullcalendar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/chosen.jquery.js"></script>
+	<script src="js/scrollbar.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/prettyPhoto.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/jRate.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
